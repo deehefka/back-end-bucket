@@ -1,6 +1,6 @@
 const mongoose = require('mongoose')
 
-const bucketli.stSchema = new mongoose.Schema({
+const bucketListSchema = new mongoose.Schema({
   title: {
     type: String,
     required: true
@@ -10,7 +10,7 @@ const bucketli.stSchema = new mongoose.Schema({
     required: true
   },
   description: {
-    type: Text,
+    type: String,
     required: true
   },
   owner: {
@@ -23,4 +23,4 @@ const bucketli.stSchema = new mongoose.Schema({
   timestamps: true
 })
 
-module.exports = mongoose.model('Bucketli.st', bucketli.stSchema)
+module.exports = mongoose.model('BucketList', bucketListSchema)

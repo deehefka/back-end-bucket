@@ -1,7 +1,7 @@
 'use strict'
 
 // creating a base name for the mongodb
-const mongooseBaseName = 'bucketList'
+const mongooseBaseName = 'back-end-bucket'
 
 // create the mongodb uri for development and test
 const database = {

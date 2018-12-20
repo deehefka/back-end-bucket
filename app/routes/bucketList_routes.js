@@ -14,7 +14,7 @@ const requireToken = passport.authenticate('bearer', { session: false })
 const router = express.Router()
 
 router.get('/bucketLists', requireToken, (req, res) => {
-  BucketList.find()
+  BucketList.find({ owner: req.user.id })
     .then(bucketLists => {
       return bucketLists.map(bucketList => bucketList.toObject())
     })

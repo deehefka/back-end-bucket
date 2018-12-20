@@ -2,9 +2,11 @@ Team Project - Bucket List - Back-End
 
 Besides finishing WDI, you surely have one or two things you'd love to do with your life. Let's get 'em on paper! You could integrate with a third-party location-based API to allow users to search for a location or venue to add to their bucket list items.
 
-Live URL:
+Live URL-
 
-Front end URL:
+Back end URL: https://boiling-temple-34705.herokuapp.com/bucketLists
+
+Front end URL: https://deehefka.github.io/front-end-bucket/
 
 Link to Back-end Repo: https://github.com/deehefka/back-end-bucket
 

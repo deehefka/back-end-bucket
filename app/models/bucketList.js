@@ -21,6 +21,6 @@ const bucketListSchema = new mongoose.Schema({
 },
 {
   timestamps: true
-}) 
+})
 
 module.exports = mongoose.model('BucketList', bucketListSchema)
